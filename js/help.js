@@ -19,7 +19,7 @@ function updateStatus(resp){
   current = resp['status']
   if (current == 'majorproblem')
     message = "Major service disruption"
-  else if (current == 'minorproblem')
+  else if (current == 'minorproble
     message = "Minor service disruption"
   else
     message = "All systems operational"
